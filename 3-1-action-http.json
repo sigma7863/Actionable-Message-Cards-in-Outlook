@@ -1,0 +1,7 @@
+{
+  "type": "Action.Http",
+  "title": "Send Feedback",
+  "method": "POST",
+  "url": "https://...",
+  "body": "{{feedbackText.value}}"
+}

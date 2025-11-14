@@ -1,0 +1,36 @@
+{
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "originator": "5a53e3ea-f50a-44d2-8855-2b5825d63eb8",
+  "hideOriginalBody": "true",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Visit the Outlook Dev Portal",
+      "size": "large"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Click **Learn More** to learn more about Actionable Messages!"
+    },
+    {
+      "type": "Input.Text",
+      "id": "feedbackText",
+      "placeholder": "Let us know what you think about Actionable Messages"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Http",
+      "title": "Send Feedback",
+      "method": "POST",
+      "url": "https://...",
+      "body": "{{feedbackText.value}}"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Learn More",
+      "url": "https://learn.microsoft.com/outlook/actionable-messages"
+    }
+  ]
+}

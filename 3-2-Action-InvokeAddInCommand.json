@@ -1,0 +1,11 @@
+{
+  "type": "Action.InvokeAddInCommand",
+  "title": "Create Support Ticket with Contoso Support",
+  "addInId": "527104a1-f1a5-475a-9199-7a968161c870",
+  "desktopCommandId": "openTicketPane",
+  "initializationContext": {
+    "referenceNumber": "REF039420",
+    "bucketId": 2,
+    "priority": "normal"
+  }
+}

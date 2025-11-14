@@ -1,0 +1,7 @@
+{
+  "type": "Action.ToggleVisibility",
+  "title": "Show only unassigned issues",
+  "targetElements": [
+    "assignedIssues"
+  ]
+}
